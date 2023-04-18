@@ -15,7 +15,7 @@ window.onload = function () {
 
 function checkAge() {
   const age = parseInt(document.querySelector("input#age").value);
-  if (age>18) {
+  if (age>=18) {
     document.querySelector("div#votingPage").removeAttribute("class");
   } else {
     document.querySelector("div#noVote").removeAttribute("class");
